@@ -314,6 +314,7 @@ generator_secp256k1 = ecdsa.ellipticcurve.Point(curve_secp256k1, _Gx, _Gy, _r)
 oid_secp256k1 = (1, 3, 132, 0, 10)
 SECP256k1 = ecdsa.curves.Curve(
     "SECP256k1",
+    None,
     curve_secp256k1,
     generator_secp256k1,
     oid_secp256k1
